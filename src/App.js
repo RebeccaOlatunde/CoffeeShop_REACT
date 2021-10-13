@@ -1,19 +1,27 @@
 import React, { Component } from 'react';
 import { Navbar, NavbarBrand } from 'reactstrap';
-import Menu from './components/Menu';
+import Menu from './components/MenuComponent';
 import './App.css';
+import { MENUSELECTIONS} from './shared/menuselections';
 
-//Main page Navbar *Color and font style needs to be changed
+
 class App extends Component {
+    constructor(props){
+        super(props);
+        this.state = {
+            menuselections: MENUSELECTIONS
+        };
+    }
+
     render() {
         return (
             <div className="App">
                 <Navbar dark color="success">
                 <div className="container">
-                    <NavbarBrand href="/">SB Coffee & Bake Shop</NavbarBrand>
+                    <NavbarBrand href="/">SB Coffee & Bake</NavbarBrand>
                 </div>
                 </Navbar>
-                <Menu/>
+                <Menu menuselections={this.state.menuselections} />
             </div>
         );
     }
