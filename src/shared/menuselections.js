@@ -9,35 +9,35 @@ export const MENUSELECTIONS = [
                 id: 0,
                 rating: 5, 
                 text: "Soft donut!",
-                author: "Tinus Lorvaldes",
+                author: "-Tinus Lorvaldes",
                 date: "2018-10-25T16:30Z"
             },
             {
                 id: 1,
                 rating: 4, 
-                text: "Buttery.",
-                author: "Brennen Ech",
+                text: "Fluffy donuts and great price, my daughter likes the sprinkle topped donut.",
+                author: "- Brennen Ech",
                 date: "2017-06-17T03:33Z"
             },
             {
                 id: 2,
                 rating: 5, 
-                text: "I caught a world-record-breaking trout here on my last visit.",
-                author: "McKenzie Sebastian",
+                text: "If you don't mind the calories, they are great for dessert.",
+                author: "- McKenzie Sebastian",
                 date: "2019-02-18T18:12Z"
             },
             {
                 id: 3,
                 rating: 5, 
-                text: "A wonderful place to reconnect with nature.",
-                author: "Jordan Runn",
+                text: "Great bake shop donut.",
+                author: "- Jordan Runn",
                 date: "2019-08-04T20:11Z"
             },
             {
                 id: 4,
                 rating: 4, 
-                text: "The stars at night were magnificent!",
-                author: "Ann Dabramov",
+                text: "They are so good!",
+                author: "- Ann Dabramov",
                 date: "2018-07-23T19:44Z"
             }
         ]
@@ -46,42 +46,42 @@ export const MENUSELECTIONS = [
         id: 1,
         name:'Croissant ',
         image: 'assets/images/Croissant1.PNG',
-        description: "Spend a few sunny days and starry nights beneath a canopy of old-growth firs at this enchanting spot by the Chrome River.",
+        description: "Buttery Goodness",
         comments: [
             {
                 id: 0,
                 rating: 5, 
-                text: "What a magnificent view!",
-                author: "Tinus Lorvaldes",
-                date: "2018-10-25T16:30Z"
+                text: "Freshly baked daily!",
+                author: "- Tinus Lorvaldes",
+                date: "2020-10-25T16:30Z"
             },
             {
                 id: 1,
                 rating: 4, 
-                text: "The campground was beautiful, but the bugs could bite sometimes.",
-                author: "Brennen Ech",
-                date: "2017-06-17T03:33Z"
+                text: "I usually order a dozen at a time, they are so good.",
+                author: "- Brennen Ech",
+                date: "2021-06-17T03:33Z"
             },
             {
                 id: 2,
                 rating: 5, 
-                text: "I caught a world-record-breaking trout here on my last visit.",
-                author: "McKenzie Sebastian",
-                date: "2019-02-18T18:12Z"
+                text: "Faves of all time, you won't regret it.",
+                author: "- McKenzie Sebastian",
+                date: "2020-02-18T18:12Z"
             },
             {
                 id: 3,
                 rating: 5, 
-                text: "A wonderful place to reconnect with nature.",
-                author: "Jordan Runn",
-                date: "2019-08-04T20:11Z"
+                text: "Flaky, crusty, soft and buttery croissant. Better than store bought",
+                author: "- Jordan Runn",
+                date: "2020-08-04T20:11Z"
             },
             {
                 id: 4,
                 rating: 4, 
-                text: "The stars at night were magnificent!",
-                author: "Ann Dabramov",
-                date: "2018-07-23T19:44Z"
+                text: "Yummy goodness!",
+                author: "- Ann Dabramov",
+                date: "2021-07-23T19:44Z"
             }
         ]
     },
@@ -94,80 +94,80 @@ export const MENUSELECTIONS = [
             {
                 id: 0,
                 rating: 5, 
-                text: "What a magnificent view!",
-                author: "Tinus Lorvaldes",
-                date: "2018-10-25T16:30Z"
+                text: "Smooth coffee!",
+                author: "- Tinus Lorvaldes",
+                date: "2021-10-25T16:30Z"
             },
             {
                 id: 1,
                 rating: 4, 
-                text: "The campground was beautiful, but the bugs could bite sometimes.",
-                author: "Brennen Ech",
-                date: "2017-06-17T03:33Z"
+                text: "First Coffee.",
+                author: "- Brennen Ech",
+                date: "2021-06-17T03:33Z"
             },
             {
                 id: 2,
                 rating: 5, 
-                text: "I caught a world-record-breaking trout here on my last visit.",
-                author: "McKenzie Sebastian",
-                date: "2019-02-18T18:12Z"
+                text: "Hot, smooth, scented coffee.",
+                author: "- McKenzie Sebastian",
+                date: "2020-02-18T18:12Z"
             },
             {
                 id: 3,
                 rating: 5, 
-                text: "A wonderful place to reconnect with nature.",
-                author: "Jordan Runn",
-                date: "2019-08-04T20:11Z"
+                text: "Daily dose of coffee.",
+                author: "- Jordan Runn",
+                date: "2021-08-04T20:11Z"
             },
             {
                 id: 4,
                 rating: 4, 
-                text: "The stars at night were magnificent!",
-                author: "Ann Dabramov",
-                date: "2018-07-23T19:44Z"
+                text: "Hot and scented!",
+                author: "- Ann Dabramov",
+                date: "2020-07-23T19:44Z"
             }
         ]
     },
     {
         id: 3,
-        name:'Cappucino',
+        name:'Latte',
         image: 'assets/images/latte1.jpg',
-        description: "Best Cappucino in town.",
+        description: "Best Latte in town.",
         comments: [
             {
                 id: 0,
                 rating: 5, 
-                text: "What a magnificent view!",
-                author: "Tinus Lorvaldes",
-                date: "2018-10-25T16:30Z"
+                text: "Great tasting milky cappucino!",
+                author: "- Tinus Lorvaldes",
+                date: "2021-10-25T16:30Z"
             },
             {
                 id: 1,
                 rating: 4, 
-                text: "The campground was beautiful, but the bugs could bite sometimes.",
-                author: "Brennen Ech",
-                date: "2017-06-17T03:33Z"
+                text: "Quality morning dose of cappucino.",
+                author: "- Brennen Ech",
+                date: "2021-06-17T03:33Z"
             },
             {
                 id: 2,
                 rating: 5, 
-                text: "I caught a world-record-breaking trout here on my last visit.",
-                author: "McKenzie Sebastian",
-                date: "2019-02-18T18:12Z"
+                text: "Yummy, foamy drink",
+                author: "- McKenzie Sebastian",
+                date: "2021-02-18T18:12Z"
             },
             {
                 id: 3,
                 rating: 5, 
-                text: "A wonderful place to reconnect with nature.",
-                author: "Jordan Runn",
-                date: "2019-08-04T20:11Z"
+                text: "Yummy goodness.",
+                author: "- Jordan Runn",
+                date: "2020-08-04T20:11Z"
             },
             {
                 id: 4,
                 rating: 4, 
-                text: "The stars at night were magnificent!",
-                author: "Ann Dabramov",
-                date: "2018-07-23T19:44Z"
+                text: "Quality Cappucino",
+                author: "- Ann Dabramov",
+                date: "2021-07-23T19:44Z"
             }
         ]
     },
@@ -175,42 +175,42 @@ export const MENUSELECTIONS = [
         id: 4,
         name:'Bagel',
         image: 'assets/images/Bagel1.PNG',
-        description: "Best Cappucino in town.",
+        description: "Freshly Baked Daily.",
         comments: [
             {
                 id: 0,
                 rating: 5, 
-                text: "What a magnificent view!",
-                author: "Tinus Lorvaldes",
-                date: "2018-10-25T16:30Z"
+                text: "Tasty, fresh bagel!",
+                author: "- Tinus Lorvaldes",
+                date: "2020-10-25T16:30Z"
             },
             {
                 id: 1,
                 rating: 4, 
-                text: "The campground was beautiful, but the bugs could bite sometimes.",
-                author: "Brennen Ech",
-                date: "2017-06-17T03:33Z"
+                text: "I love the salt Bagel.",
+                author: "- Brennen Ech",
+                date: "2020-06-17T03:33Z"
             },
             {
                 id: 2,
                 rating: 5, 
-                text: "I caught a world-record-breaking trout here on my last visit.",
-                author: "McKenzie Sebastian",
-                date: "2019-02-18T18:12Z"
+                text: "Great tasting.",
+                author: "- McKenzie Sebastian",
+                date: "2020-02-18T18:12Z"
             },
             {
                 id: 3,
                 rating: 5, 
-                text: "A wonderful place to reconnect with nature.",
+                text: "I buy them by the dozen.",
                 author: "Jordan Runn",
-                date: "2019-08-04T20:11Z"
+                date: "2021-08-04T20:11Z"
             },
             {
                 id: 4,
                 rating: 4, 
-                text: "The stars at night were magnificent!",
+                text: "Yum!",
                 author: "Ann Dabramov",
-                date: "2018-07-23T19:44Z"
+                date: "2021-07-23T19:44Z"
             }
         ]
     },
@@ -218,42 +218,42 @@ export const MENUSELECTIONS = [
         id: 5,
         name:'Breakfast Sandwich',
         image: 'assets/images/BreakfastSandwich1.PNG',
-        description: "Tasty, cheesy, meaty Goodness.",
+        description: "Tasty, cheesy, Meaty Goodness.",
         comments: [
             {
                 id: 0,
                 rating: 5, 
-                text: "What a magnificent view!",
-                author: "Tinus Lorvaldes",
-                date: "2018-10-25T16:30Z"
+                text: "Tasty, cheesy, bacon goodness!",
+                author: "- Tinus Lorvaldes",
+                date: "2020-10-25T16:30Z"
             },
             {
                 id: 1,
                 rating: 4, 
-                text: "The campground was beautiful, but the bugs could bite sometimes.",
-                author: "Brennen Ech",
-                date: "2017-06-17T03:33Z"
+                text: "Daily Fresh Breakfast Sandwich.",
+                author: "- Brennen Ech",
+                date: "2020-06-17T03:33Z"
             },
             {
                 id: 2,
                 rating: 5, 
-                text: "I caught a world-record-breaking trout here on my last visit.",
-                author: "McKenzie Sebastian",
-                date: "2019-02-18T18:12Z"
+                text: "It's a fave.",
+                author: "- McKenzie Sebastian",
+                date: "2020-02-18T18:12Z"
             },
             {
                 id: 3,
                 rating: 5, 
-                text: "A wonderful place to reconnect with nature.",
-                author: "Jordan Runn",
-                date: "2019-08-04T20:11Z"
+                text: "Yum.",
+                author: "- Jordan Runn",
+                date: "2021-08-04T20:11Z"
             },
             {
                 id: 4,
                 rating: 4, 
                 text: "The stars at night were magnificent!",
-                author: "Ann Dabramov",
-                date: "2018-07-23T19:44Z"
+                author: "- Ann Dabramov",
+                date: "2021-07-23T19:44Z"
             }
         ]
     }
