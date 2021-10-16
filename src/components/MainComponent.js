@@ -1,8 +1,9 @@
 import React, { Component } from 'react';
-import { Navbar, NavbarBrand } from 'reactstrap';
 import Menu from './MenuComponent';
 import MenuselectionInfo from './MenuselectionInfoComponent';
 import { MENUSELECTIONS } from '../shared/menuselections';
+import Header from './HeaderComponent';
+import Footer from './FooterComponent';
 
 class Main extends Component {
     constructor(props) {
@@ -20,17 +21,13 @@ class Main extends Component {
     render() {
         return (
             <div>
-                <Navbar dark color="primary">
-                    <div className="container">
-                        <NavbarBrand href="/">SB Coffee & Bake</NavbarBrand>
-                    </div>
-                </Navbar>
-                <Menu menuselections={this.state.menuselections} 
-                onClick={menuselectionId => this.onMenuselectionSelect(menuselectionId)}/>
+                <Header />
+                <Menu menuselections={this.state.menuselections} onClick={menuselectionId => this.onMenuselectionSelect(menuselectionId)} />
                 <MenuselectionInfo menuselection={this.state.menuselections.filter(menuselection => menuselection.id === this.state.selectedMenuselection)[0]} />
+                <Footer />
             </div>
         );
-    };
+    }
 }
 
 export default Main;

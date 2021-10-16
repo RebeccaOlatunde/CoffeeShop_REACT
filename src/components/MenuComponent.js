@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-// import MenuselectionInfo from './MenuselectionInfoComponent';
 import { Card, CardImg, CardImgOverlay, CardTitle } from 'reactstrap';
 
 
@@ -28,6 +27,4 @@ class Menu extends Component {
         );
     }
 }
-
-
 export default Menu;
