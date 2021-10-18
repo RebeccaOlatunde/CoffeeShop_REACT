@@ -1,11 +1,34 @@
-import React, { Component }  from 'react';
+import React from 'react';
+import { Card, CardImg, CardText, CardBody, CardTitle } from 'reactstrap';
 
-function Home(props) {
+function RenderCard({item}) {
     return (
-        <div className="container">
-            <h4>Home</h4>
-        </div>
+        <Card>
+            <CardImg src={item.image} alt={item.name} />
+            <CardBody>
+                <CardTitle>{item.name}</CardTitle>
+                <CardText>{item.description}</CardText>
+            </CardBody>
+        </Card>
     );
 }
 
-export default Home;   
+function Home(props) {
+        return (
+            <div className="container">
+                <div className="row">
+                    <div className="col-md m-1">
+                        <RenderCard item={props.menuselection} />
+                    </div>
+                    <div className="col-md m-1">
+                        <RenderCard item={props.promotion} />
+                    </div>
+                    <div className="col-md m-1">
+                        <RenderCard item={props.bestseller} />
+                    </div>
+                </div>
+            </div>
+        );
+}
+
+export default Home;
